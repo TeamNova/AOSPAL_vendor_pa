@@ -27,6 +27,9 @@ PREFS_FROM_SOURCE ?= false
 # Include AOSPA common configuration
 include vendor/pa/main.mk
 
+# Inherit PSD device product
+$(call inherit-product, vendor/psd/products/psd_v500.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/lge/v500/v500.mk)
 

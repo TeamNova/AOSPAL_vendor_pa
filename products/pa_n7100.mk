@@ -27,6 +27,9 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 # Include AOSPA common configuration
 include vendor/pa/main.mk
 
+# Inherit PSD device product
+$(call inherit-product, vendor/psd/products/psd_n7100.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/samsung/n7100/full_n7100.mk)
 
@@ -38,4 +41,3 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=t03gxx TARGET_DEVICE=t03g BUILD_FINGERPRINT="samsung/t03gxx/t03g:4.1.1/JRO03C/N7100XXALJ3:user/release-keys" PRIVATE_BUILD_DESC="t03gxx-user 4.1.1 JRO03C N7100XXALJ3 release-keys"
 
 endif
-

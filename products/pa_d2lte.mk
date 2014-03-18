@@ -31,6 +31,9 @@ include vendor/pa/main.mk
 # Inherit device configuration
 $(call inherit-product, device/samsung/d2lte/full_d2lte.mk)
 
+# Inherit PSD device product
+$(call inherit-product, vendor/psd/products/psd_d2lte.mk)
+
 # Override AOSP build properties
 PRODUCT_NAME := pa_d2lte
 PRODUCT_DEVICE := d2lte

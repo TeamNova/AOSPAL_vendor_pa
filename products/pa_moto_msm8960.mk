@@ -27,6 +27,9 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 # Include AOSPA common configuration
 include vendor/pa/main.mk
 
+# Inherit PSD device product
+$(call inherit-product, vendor/psd/products/psd_moto_msm8960.mk)
+
 # Inherit AOSP device configuration
 $(call inherit-product, device/motorola/moto_msm8960/full_moto_msm8960.mk)
 

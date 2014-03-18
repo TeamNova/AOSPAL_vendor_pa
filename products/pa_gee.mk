@@ -28,6 +28,9 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 # Include AOSPA common configuration
 include vendor/pa/main.mk
 
+# Inherit PSD device product
+$(call inherit-product, vendor/psd/products/psd_gee.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/lge/gee/full_gee.mk)
 
