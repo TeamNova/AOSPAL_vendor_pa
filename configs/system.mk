@@ -53,4 +53,4 @@ PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
     org.cyanogenmod.hardware.xml
 
-$(call inherit-product, vendor/psd/configs/system.mk)
+$(call inherit-product, vendor/psd/configs/psd_board.mk)
