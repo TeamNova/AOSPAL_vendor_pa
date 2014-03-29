@@ -35,7 +35,4 @@ add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_togari-userdebug
 add_lunch_combo pa_v500-userdebug
 add_lunch_combo pa_vs980-userdebug
-add_lunch_combo pa_xt907-userdebug
-add_lunch_combo pa_xt925-userdebug
-add_lunch_combo pa_xt926-userdebug
 add_lunch_combo pa_yuga-userdebug
