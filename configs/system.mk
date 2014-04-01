@@ -50,5 +50,4 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/$(VENDOR)/prebuilt/apk/Superuser.apk:system/priv-app/Superuser.apk
 
-
 $(call inherit-product, vendor/psd/configs/psd_board.mk)
