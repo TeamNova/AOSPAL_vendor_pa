@@ -28,7 +28,7 @@ ifneq ($(filter pa_d800 pa_d801 pa_d802 pa_d803 pa_dlx pa_hlte pa_i9500 pa_jflte
 endif
 
 # PA XHDPI Devices
-ifneq ($(filter pa_hikari pa_nozomi pa_enrc2b pa_evita pa_melius3gxx pa_meliusltexx pa_mint pa_moto_msm8960 pa_moto_msm8960dt pa_d2lte pa_gee pa_geeb pa_hercules pa_i605 pa_i9300 pa_l900 pa_n7000 pa_n7100 pa_p880 pa_skyrocket pa_togari pa_v500 pa_vanquish,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_hikari pa_nozomi pa_enrc2b pa_evita pa_falcon pa_melius3gxx pa_meliusltexx pa_mint pa_moto_msm8960 pa_moto_msm8960dt pa_d2lte pa_gee pa_geeb pa_hercules pa_i605 pa_i9300 pa_l900 pa_n7000 pa_n7100 pa_p880 pa_skyrocket pa_togari pa_v500 pa_vanquish,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
@@ -40,7 +40,7 @@ ifneq ($(filter pa_a510 pa_a700 pa_galaxysmtd pa_i9100 pa_xt907,$(TARGET_PRODUCT
 endif
 
 # PA TVDPI Devices
-ifneq ($(filter pa_n5110 pa_n5100 pa_tate,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_n5110 pa_jem pa_n5100 pa_tate,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1920x1200.zip:system/media/bootanimation.zip
 endif
