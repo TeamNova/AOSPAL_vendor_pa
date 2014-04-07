@@ -29,6 +29,7 @@ add_lunch_combo pa_l900-userdebug
 add_lunch_combo pa_ls980-userdebug
 add_lunch_combo pa_m7ul-userdebug
 add_lunch_combo pa_m7-userdebug
+add_lunch_combo pa_m8-userdebug
 add_lunch_combo pa_meliusltexx-userdebug
 add_lunch_combo pa_melius3gxx-userdebug
 add_lunch_combo pa_mint-userdebug
@@ -76,6 +77,7 @@ add_lunch_combo pa_l900-user
 add_lunch_combo pa_ls980-user
 add_lunch_combo pa_m7ul-user
 add_lunch_combo pa_m7-user
+add_lunch_combo pa_m8-user
 add_lunch_combo pa_meliusltexx-user
 add_lunch_combo pa_melius3gxx-user
 add_lunch_combo pa_mint-user
