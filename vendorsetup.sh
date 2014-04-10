@@ -7,11 +7,8 @@ add_lunch_combo pa_d801-userdebug
 add_lunch_combo pa_d802-userdebug
 add_lunch_combo pa_d803-userdebug
 add_lunch_combo pa_dlx-userdebug
-<<<<<<< HEAD
 add_lunch_combo pa_e975-userdebug
-=======
 add_lunch_combo pa_edison-userdebug
->>>>>>> PA/kitkat
 add_lunch_combo pa_enrc2b-userdebug
 add_lunch_combo pa_evita-userdebug
 add_lunch_combo pa_falcon-userdebug
