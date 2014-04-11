@@ -21,6 +21,12 @@ OVERLAY_TARGET := pa_tvdpi
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= false
 
+<<<<<<< HEAD
+=======
+# Inherit telephony common stuff
+$(call inherit-product, vendor/pa/configs/telephony.mk)
+
+>>>>>>> PA/kitkat
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
@@ -32,9 +38,16 @@ PRODUCT_NAME := pa_jemlte
 PRODUCT_DEVICE := jemlte
 PRODUCT_RELEASE_NAME := KindleFireHD
 PRODUCT_BRAND := google
+<<<<<<< HEAD
 PRODUCT_MODEL := Amazon jemlte
 PRODUCT_MANUFACTURER := android
 
+=======
+PRODUCT_MODEL := Amazon Jem LTE
+PRODUCT_MANUFACTURER := android
+
+# Set build fingerprint / ID / Product Name ect.
+>>>>>>> PA/kitkat
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jemlte TARGET_DEVICE=jemlte
 
 endif
