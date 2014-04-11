@@ -33,15 +33,7 @@ $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_falcon
-<<<<<<< HEAD
-<<<<<<< HEAD
-PRODUCT_DEVICE := full_falcon
-=======
 PRODUCT_DEVICE := falcon
->>>>>>> PA/kitkat
-=======
-PRODUCT_DEVICE := falcon
->>>>>>> PA/kitkat
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := falcon
