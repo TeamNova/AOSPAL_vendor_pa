@@ -23,9 +23,9 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver
 
 # Screen Recorder
-PRODUCT_PACKAGES += \
-    ScreenRecorder \
-    libscreenrecorder
+#PRODUCT_PACKAGES += \
+#    ScreenRecorder \
+#    libscreenrecorder
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
