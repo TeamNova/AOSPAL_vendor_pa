@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     CellBroadcastReceiver
 
+# ScreenRecorder not working on janice
 # Screen Recorder
 #PRODUCT_PACKAGES += \
 #    ScreenRecorder \
